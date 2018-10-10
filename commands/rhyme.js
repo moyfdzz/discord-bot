@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
     //tb rima (random rhyme)
 
     let randomNumber = Math.floor((Math.random() * 7) + 1);
-    let rhyme = " ";
+    let rhyme = rhymesFiles[randomNumber];
 
     return message.channel.send(rhyme);
 }
