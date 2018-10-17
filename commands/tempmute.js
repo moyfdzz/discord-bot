@@ -9,6 +9,9 @@ module.exports.run = async (bot, message, args) => {
     if (!muteUser)
         return message.channel.send("Couldn't find user.");
 
+    if (!message.member.hasPermission("MUTE_MEMBERS"))
+        return message.channel.send("Sorry, can't do that friend.");
+
     if (muteUser.hasPermission("MUTE_MEMBERS"))
         return message.channel.send("Can't mute them!");
 

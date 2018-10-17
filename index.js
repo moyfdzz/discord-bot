@@ -52,57 +52,22 @@ bot.on("message", async message => {
 
     let lowerCase = messageArray[1].toLowerCase();
 
-    // if (cmd === `${prefix}` && lowerCase === "gracias") {
-    //     return message.channel.send("De nada");
-    // }
+    if (cmd === `${prefix}` && lowerCase === "gracias") {
+        return message.channel.send("De nada");
+    }
 
-    // if (cmd === `${prefix}?`) {
-    //     return message.channel.send("tb tú?");
-    // }
+    if (cmd === `${prefix}?`) {
+        return message.channel.send("tb tú?");
+    }
 
-    // if (cmd === `${prefix}` && lowerCase === "ok") {
-    //     return message.channel.send("ok");
-    // }
-
-    // if (lowerCase === "hola") {
-    //     return message.channel.send("Cara de bola");
-    // }
-
-    // if (cmd === `${prefix}` && lowerCase === "carlos") {
-    //     return message.channel.send("Se va de agua en el stickfight");
-    // }
-
-    // if (cmd === `${prefix}` && lowerCase === "eriq") {
-    //     return message.channel.send("Borró Cassette");
-    // }
-
-    // if (cmd === `${prefix}` && lowerCase === "verga") {
-    //     return message.channel.send("No le digas al Carlos que es de payaso porque se avienta");
-    // }
+    if (cmd === `${prefix}` && lowerCase === "ok") {
+        return message.channel.send("ok");
+    }
 
     let commandFile = bot.commands.get(cmd.slice(prefix.length));
     
     if (commandFile)
         commandFile.run(bot, message, args);
-
-    // if (cmd === `${prefix}meco`) {
-    //     let mecoUser = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
-    //     if (!mecoUser) 
-    //         return message.channel.send("Can't find meco!");
-    //     let mecoIcon = mecoUser.user.avatarURL;
-
-    //     let mecoReason = args.join(" ").slice(22);
-
-    //     let mecoEmbed = new Discord.RichEmbed()
-    //     .setDescription("~Meco~")
-    //     .setColor("#66CCFF")
-    //     .addField("Meco", `${mecoUser} with ID: ${mecoUser.id}`)
-    //     .addField("Time", message.createdAt)
-    //     .addField("Es meco?", mecoReason)
-    //     .setThumbnail(mecoIcon);
-
-    //     return message.channel.send(mecoEmbed);
-    // }
 });
 
 bot.login(tokenFile.token);
