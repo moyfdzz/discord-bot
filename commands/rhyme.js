@@ -10,7 +10,7 @@ var rhymes = ["Adriano Marcelano aleja ya la mano del gusano y sácate el banano
 module.exports.run = async (bot, message, args) => {
     //tb rhyme (random rhyme)
 
-    let randomNumber = Math.floor((Math.random() * rhymes.length) + 1);
+    let randomNumber = Math.floor((Math.random() * rhymes.length));
     let rhyme = rhymes[randomNumber];
 
     return message.channel.send(rhyme);
