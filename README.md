@@ -14,15 +14,34 @@ https://discordapp.com/api/oauth2/authorize?client_id=498314852071374858&permiss
 
 What things I needed to start developing the discord bot and how to install them
 
+Node.js
 ```
-Give examples
+http://nodejs.org/
 ```
 
-## Built With
+Discord.js
+```
+https://discord.js.org/
+```
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## Deployment
+
+To deploy it manually, use the following command:
+```
+node index.js
+```
+
+You can install nodemon in case you want the bot to update automatically whenever you add or modify a function:
+```
+https://nodemon.io/
+```
+
+Then you can run the bot with the following command:
+```
+nodemon index.js
+```
+
+Now you can run once the bot and test the functions.
 
 ## Authors
 
@@ -36,4 +55,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Created with the help of {TheSourceCode} YouTube Channel and their discord server.
+* Created with the help of [{TheSourceCode}](https://www.youtube.com/channel/UCNXt2MrZaqfIBknamqwzeXA) YouTube Channel and their [discord server](https://discord.gg/w24CQMR).
