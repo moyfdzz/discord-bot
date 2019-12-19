@@ -56,3 +56,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Created with the help of [{TheSourceCode}](https://www.youtube.com/channel/UCNXt2MrZaqfIBknamqwzeXA) YouTube Channel and their [discord server](https://discord.gg/w24CQMR).
+* Used [README Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) from [PurpleBooth](https://github.com/PurpleBooth).
