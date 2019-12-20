@@ -12,7 +12,7 @@ https://discordapp.com/api/oauth2/authorize?client_id=498314852071374858&permiss
 
 ### Project Setup
 
-What things I needed to start developing the discord bot and how to install them
+What things I needed to start developing the discord bot:
 
 Node.js
 ```
@@ -45,13 +45,13 @@ Now you can run once the bot and test the functions.
 
 ## Authors
 
-* **Moisés Fernández** - *Initial work* - [Moyfdzz](https://github.com/moyfdzz)
+* **Moisés Fernández** - *Initial work* - [GitHub Profile](https://github.com/moyfdzz)
 
 See also the list of [contributors](https://github.com/moyfdzz/discord-bot/graphs/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
